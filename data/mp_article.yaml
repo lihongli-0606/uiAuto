@@ -1,0 +1,10 @@
+mp_article_001:
+  title: "test001-bj002"
+  content: "1111111111111111今天炖火锅"
+  expect: "新增文章成功"
+  channel: "数据库"
+mp_article_002:
+  title: "test001-bj003"
+  content: "2222222222222222今天炖火锅哈哈哈哈哈哈哈哈哈"
+  expect: "新增文章成功"
+  channel: "数据库"

@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "lihongli-Mac.local",
+    "children" : [ {
+      "name" : "46446-MainThread",
+      "children" : [ {
+        "name" : "test_mis_audit",
+        "uid" : "277cd3b760480612",
+        "parentUid" : "883fbfa4bd8ef17630590a66a0b12103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599054910183,
+          "stop" : 1599054923977,
+          "duration" : 13794
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "883fbfa4bd8ef17630590a66a0b12103"
+    } ],
+    "uid" : "e400f3b8f2e0b8868bdec90551d2d910"
+  } ]
+}

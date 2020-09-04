@@ -1,0 +1,6 @@
+app_article001:
+  channel: "python"
+  title: "Python"
+app_article002:
+  channel: "数据库"
+  title: "大数据"

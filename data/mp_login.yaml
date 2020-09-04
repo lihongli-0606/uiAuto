@@ -1,0 +1,8 @@
+mp_login_001:
+  username: "13812345678"
+  password: "246810"
+  expect: "13812345678"
+mp_login_002:
+  username: "13812345678"
+  password: "246810"
+  expect: "138123456788888"

@@ -1,0 +1,20 @@
+常见问题及使用说明：
+
+1.在终端输入pytest 运行测试用例
+
+2.allure生成html
+allure generate report -o report/html --clean
+
+3.如果提示模块未导入，可以尝试在包的__init__文件中加入,避免在多个文件中重复写：
+import os,sys
+sys.path.append(os.getcwd())
+
+4.自动化日志常用级别
+    info：
+        常规操作方法
+    error：
+        截图方法及断言异常信息
+5.日志必须标注点：
+    base：所有方法  普通方法用info级别，错误截图方法用error级别
+    page：标注位置 每个页面中的业务方法  info级别
+    scripts：标注位置：每个测试脚本异常捕获截图位置  error级别
